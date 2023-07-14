@@ -1,0 +1,7 @@
+{
+  "name": "mobileterraform",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

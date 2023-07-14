@@ -1,0 +1,21 @@
+pipeline {
+    agent {
+        // Define agent details here
+    }
+    environment {
+        AWS_ACCESS_KEY_ID     = credentials('Test_key')
+        AWS_SECRET_ACCESS_KEY = credentials('Test_key')
+    }
+    stages {
+        stage('Example stage 1') {
+            steps {
+                // 
+            }
+        }
+        stage('Example stage 2') {
+            steps {
+                // 
+            }
+        }
+    }
+}
